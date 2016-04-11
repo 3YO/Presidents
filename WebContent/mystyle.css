@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #B24D00;
+	color: darkgrey;
+	margin: center;
+	text-align: center;
+}
+
+.collapse {
+	cursor: pointer;
+	display: block;
+	background: #cdf;
+	text-align: center;
+}
+
+.collapse+input {
+	display: none; /* hide the checkboxes */
+	text-align: center;
+}
+
+.collapse+input+div {
+	display: none;
+	text-align: center;
+}
+
+.collapse+input:checked+div {
+	display: block;
+	text-align: center;
+}
+
+a:visited {
+    color: blue;
+}
+
+label {
+	color: #0a60fe;
+	font-weight: bold;
+	display: block;
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#presName {
+	color: darkgrey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+#sign {
+	border: 2px solid black;
+	margin: auto;
+	width: 28%;
+	padding: 10px;
+	background: white;
+}
+
+#indeximage {
+	border: 7px solid #E45D6D;
+	margin: auto;
+	/* 	width: 80%; */
+	padding: 10px;
+}
+
+.map1 {
+	outline: none;
+}
+
+#presPic img {
+	border: 7px solid #E45D6D;
+	margin: auto;
+	width: 25%;
+	padding: 10px;
+}
+
+#prevNext {
+	font-size: 25px;
+}
+
+#party {
+	color: darkgrey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+.button {
+    color: #FFFFFF;
+    float: center;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#trivia {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+#vp {
+	color: black;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#years {
+	color: darkgrey;
+}
+
+#q1 {
+	font-size: 20px;
+	color: black;
+}
