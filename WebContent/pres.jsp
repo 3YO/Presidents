@@ -26,13 +26,9 @@
 		</div>
 	</nav>
 	<div class="container-fluid">
-		<br>
-		<br>
-		<br>
-		<br>
+		<br> <br> <br> <br>
 		<div class="jumbotron">
 			<div class="text-center">
-
 				<h1>${selected.firstName}${selected.middleName}
 					${selected.lastName}<br> <small>President # <b>${selected.termNumber}</b></small>
 				</h1>
@@ -50,25 +46,19 @@
 					Vice-President:<b> ${selected.vp}</b>
 				</p>
 				<p class="lead">${selectedTri.trivia}</p>
-
-
-
-				<!-- End of president card -->
-
 			</div>
 		</div>
-
 		<div class="text-center">
-			<a href="PresServlet?term=${selected.termNumber-1}">Prev</a> <a
-				href="PresServlet?term=${selected.termNumber+1}">Next</a><br>
+			<ul class="pager">
+				<li><a href="PresServlet?term=${selected.termNumber-1}">Prev</a>
+				</li>
+				<li><a href="PresServlet?term=${selected.termNumber+1}">Next</a></li>
+			</ul>
 		</div>
-		<br />
 		<hr />
-
 		<div class="jumbotron">
-
-			<h3 class="text-center">Want to see another President ?? Just
-				give me a number</h3>
+			<h3 class="text-center">Want to see another President? Just give
+				me a number</h3>
 			<div class="">
 				<div class="text-center">
 
@@ -77,15 +67,10 @@
 							<input class="form-control" type="text" name="term" />
 							<button type="submit" class="btn btn-default">Go!</button>
 						</div>
-
 					</form>
 				</div>
 			</div>
-
 		</div>
-
-
-
 	</div>
 </body>
 </html>
