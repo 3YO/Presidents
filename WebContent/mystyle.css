@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+/* @CHARSET "UTF-8";
 
 body {
 	background: #B24D00;
@@ -15,7 +15,7 @@ body {
 }
 
 .collapse+input {
-	display: none; /* hide the checkboxes */
+	display: none; hide the checkboxes
 	text-align: center;
 }
 
@@ -60,7 +60,7 @@ label {
 #indeximage {
 	border: 7px solid #E45D6D;
 	margin: auto;
-	/* 	width: 80%; */
+		width: 80%;
 	padding: 10px;
 }
 
@@ -111,4 +111,4 @@ label {
 #q1 {
 	font-size: 20px;
 	color: black;
-}
+} */
