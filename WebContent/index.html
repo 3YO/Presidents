@@ -16,11 +16,26 @@
 <title>Presidents</title>
 </head>
 <body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Presidents</a>
+			</div>
+		</div>
+	</nav>
+
 	<div class="container-fluid">
-		<h1 class="text-center">Presidents</h1>
-		<h2 class="text-center">Choose a President</h2>
+		<br>
+		<br>
+		<br>
+
+		<h1 class="text-center">
+			Presidents<br> <small>Click on a President to learn more
+				about him</small>
+		</h1>
 		<div class="jumbotron">
-			<div class="">
+			<div class="text-center">
 
 				<img class="map1" src="http://i.imgur.com/cyRJD9n.jpg?1" alt=""
 					usemap="#Map" />
@@ -119,18 +134,19 @@
 				</map>
 			</div>
 		</div>
-
-		<br />
+		<hr />
 		<div class="jumbotron">
 
-			<h2 class="text-center">Type the number of the president you
-				want to see</h2>
+			<h3 class="text-center">Type the number of the president you
+				want to see</h3>
 			<div class="">
 				<div class="text-center">
 
-					<form action="PresServlet" method="POST">
-						<br /> <input class="" type="text" name="term" />
-						<button class="">Go!</button>
+					<form class="form-inline" action="PresServlet" method="POST">
+						<div class="form-group">
+							<input class="form-control" type="text" name="term" />
+							<button type="submit" class="btn btn-default">Go!</button>
+						</div>
 
 					</form>
 				</div>
